@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imperium Barber Club | Barbearia Premium</title>
+  <meta name="description" content="Imperium Barber Club - barbearia premium com cortes, barba, tratamentos, planos de assinatura e agendamento online.">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;0,6..96,700;1,6..96,400&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <span>Seg a Sex 9h às 20h &middot; Sáb 8h às 18h</span>
+      <span class="topbar__status" id="statusAgora">Verificando horário...</span>
+    </div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Imperium Barber Club">
+        <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M8 34 L14 14 L24 26 L34 14 L40 34 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+          <circle cx="14" cy="12" r="2.2" fill="currentColor"/><circle cx="24" cy="24" r="2.2" fill="currentColor"/><circle cx="34" cy="12" r="2.2" fill="currentColor"/>
+          <path d="M8 38 H40" stroke="currentColor" stroke-width="2.2"/>
+        </svg>
+        <span class="logo__text">Imperium<small>Barber Club</small></span>
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#planos">Planos</a>
+        <a href="#equipe">Equipe</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+        <a href="#agendar" class="btn btn--gold nav__cta">Agendar horário</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <p class="eyebrow reveal">Desde 2014 &middot; Barbearia premium</p>
+        <h1 class="hero__title reveal">A arte do corte<br><em>em outro nível.</em></h1>
+        <p class="hero__text reveal">Cortes de precisão, barba com toalha quente, tratamentos capilares e um ambiente feito para você relaxar. Agende em menos de um minuto.</p>
+        <div class="hero__actions reveal">
+          <a href="#agendar" class="btn btn--gold btn--lg">Agendar agora</a>
+          <a href="#servicos" class="btn btn--ghost btn--lg">Ver preços</a>
+        </div>
+        <ul class="hero__stats reveal">
+          <li><strong data-count="12">0</strong><span>anos de história</span></li>
+          <li><strong data-count="18500">0</strong><span>clientes atendidos</span></li>
+          <li><strong data-count="4.9" data-decimal="1">0</strong><span>avaliação no Google</span></li>
+        </ul>
+      </div>
+      <a href="#sobre" class="hero__scroll" aria-label="Rolar para baixo"><span></span></a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Corte</span><i></i><span>Barba</span><i></i><span>Degradê</span><i></i><span>Toalha quente</span><i></i><span>Pigmentação</span><i></i><span>Platinado</span><i></i><span>Dia do noivo</span><i></i>
+        <span>Corte</span><i></i><span>Barba</span><i></i><span>Degradê</span><i></i><span>Toalha quente</span><i></i><span>Pigmentação</span><i></i><span>Platinado</span><i></i><span>Dia do noivo</span><i></i>
+      </div>
+    </div>
+
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <div class="about__img about__img--main"></div>
+          <div class="about__img about__img--small"></div>
+          <div class="about__badge">
+            <strong>12</strong>
+            <span>anos cuidando<br>do homem moderno</span>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="eyebrow reveal">Sobre nós</p>
+          <h2 class="section__title reveal">Tradição de barbearia clássica com técnica atual.</h2>
+          <p class="reveal">A Imperium nasceu para ser mais que um lugar para cortar o cabelo. Aqui cada atendimento é um ritual: consulta de estilo, lavagem, corte sob medida, finalização e aquele café ou cerveja gelada enquanto você espera.</p>
+          <ul class="features reveal">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M6 3l12 18M18 3L6 21" /><circle cx="6" cy="6" r="3"/><circle cx="18" cy="6" r="3"/></svg>
+              <div><strong>Barbeiros certificados</strong><span>Equipe com formação e reciclagem constante.</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M12 2l2.9 6.3 6.9.7-5.2 4.6 1.5 6.8L12 17l-6.1 3.4 1.5-6.8L2.2 9l6.9-.7z"/></svg>
+              <div><strong>Produtos profissionais</strong><span>Linhas importadas e veganas para cabelo e barba.</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M4 8h13v5a6 6 0 01-6 6h-1a6 6 0 01-6-6z"/><path d="M17 10h1.5a2.5 2.5 0 010 5H17"/><path d="M8 2v3M12 2v3"/></svg>
+              <div><strong>Cortesias da casa</strong><span>Café espresso, água, refrigerante e chopp.</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M12 2a9 9 0 019 9c0 6-9 11-9 11S3 17 3 11a9 9 0 019-9z"/><circle cx="12" cy="11" r="3"/></svg>
+              <div><strong>Estrutura completa</strong><span>Ar-condicionado, Wi-Fi, TV, sinuca e estacionamento.</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Tabela de preços</p>
+          <h2 class="section__title reveal">Serviços e valores</h2>
+          <p class="section__lead reveal">Preços transparentes, sem surpresa no final. Toque em um serviço para já começar seu agendamento.</p>
+        </div>
+
+        <div class="tabs reveal" role="tablist" id="serviceTabs"></div>
+        <div class="price-list" id="priceList"></div>
+
+        <p class="services__note reveal">Pagamento em Pix, dinheiro, débito ou crédito em até 3x sem juros acima de R$ 150. Atendimento infantil a partir de 2 anos.</p>
+      </div>
+    </section>
+
+    <section class="section plans" id="planos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Clube de assinatura</p>
+          <h2 class="section__title reveal">Visual impecável o mês inteiro</h2>
+          <p class="section__lead reveal">Pague um valor fixo por mês e venha quando quiser. Sem fidelidade, cancele quando quiser.</p>
+        </div>
+
+        <div class="plans__grid">
+          <article class="plan reveal">
+            <h3>Essencial</h3>
+            <p class="plan__desc">Para quem mantém o corte sempre em dia.</p>
+            <p class="plan__price"><small>R$</small>89<span>/mês</span></p>
+            <ul>
+              <li>Cortes ilimitados</li>
+              <li>Pezinho e acabamento</li>
+              <li>Café e água cortesia</li>
+              <li class="off">Barba</li>
+              <li class="off">Desconto em produtos</li>
+            </ul>
+            <a href="#" class="btn btn--ghost btn--block" data-plan="Essencial - R$ 89/mês">Assinar Essencial</a>
+          </article>
+
+          <article class="plan plan--featured reveal">
+            <span class="plan__tag">Mais escolhido</span>
+            <h3>Clássico</h3>
+            <p class="plan__desc">Cabelo e barba sempre alinhados.</p>
+            <p class="plan__price"><small>R$</small>149<span>/mês</span></p>
+            <ul>
+              <li>Cortes ilimitados</li>
+              <li>Barbas ilimitadas</li>
+              <li>Sobrancelha inclusa</li>
+              <li>Cerveja ou refrigerante cortesia</li>
+              <li>10% de desconto em produtos</li>
+            </ul>
+            <a href="#" class="btn btn--gold btn--block" data-plan="Clássico - R$ 149/mês">Assinar Clássico</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3>Imperial</h3>
+            <p class="plan__desc">A experiência completa, sem limites.</p>
+            <p class="plan__price"><small>R$</small>229<span>/mês</span></p>
+            <ul>
+              <li>Tudo do plano Clássico</li>
+              <li>1 hidratação ou limpeza de pele</li>
+              <li>Prioridade na agenda</li>
+              <li>Atendimento com barbeiro master</li>
+              <li>20% de desconto em produtos</li>
+            </ul>
+            <a href="#" class="btn btn--ghost btn--block" data-plan="Imperial - R$ 229/mês">Assinar Imperial</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team" id="equipe">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Nossa equipe</p>
+          <h2 class="section__title reveal">Mãos que entendem de estilo</h2>
+        </div>
+        <div class="team__grid" id="teamGrid"></div>
+      </div>
+    </section>
+
+    <section class="section booking" id="agendar">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Agendamento online</p>
+          <h2 class="section__title reveal">Reserve seu horário</h2>
+          <p class="section__lead reveal">Escolha os serviços, o profissional e o melhor horário. A confirmação chega pelo WhatsApp.</p>
+        </div>
+
+        <div class="booking__box reveal">
+          <ol class="steps" id="steps">
+            <li class="is-active"><span>1</span>Serviços</li>
+            <li><span>2</span>Profissional</li>
+            <li><span>3</span>Data e hora</li>
+            <li><span>4</span>Seus dados</li>
+          </ol>
+
+          <div class="booking__body">
+            <div class="booking__main">
+              <div class="step-panel is-active" data-step="1">
+                <h3 class="step-panel__title">Quais serviços você quer?</h3>
+                <p class="step-panel__hint">Pode escolher mais de um.</p>
+                <div class="pick-services" id="pickServices"></div>
+              </div>
+
+              <div class="step-panel" data-step="2">
+                <h3 class="step-panel__title">Com quem você quer ser atendido?</h3>
+                <div class="pick-barbers" id="pickBarbers"></div>
+              </div>
+
+              <div class="step-panel" data-step="3">
+                <h3 class="step-panel__title">Escolha o dia e o horário</h3>
+                <div class="dates" id="dates"></div>
+                <div class="slots" id="slots"></div>
+                <div class="slots__legend">
+                  <span><i class="lg lg--free"></i>Disponível</span>
+                  <span><i class="lg lg--busy"></i>Ocupado</span>
+                  <span><i class="lg lg--sel"></i>Selecionado</span>
+                </div>
+              </div>
+
+              <div class="step-panel" data-step="4">
+                <h3 class="step-panel__title">Seus dados</h3>
+                <form class="form" id="bookingForm" novalidate>
+                  <div class="form__row">
+                    <label>Nome completo
+                      <input type="text" name="nome" id="fNome" placeholder="Seu nome" required autocomplete="name">
+                    </label>
+                    <label>WhatsApp
+                      <input type="tel" name="telefone" id="fTel" placeholder="(00) 00000-0000" required autocomplete="tel" maxlength="15">
+                    </label>
+                  </div>
+                  <label>Observações <span class="opt">(opcional)</span>
+                    <textarea name="obs" id="fObs" rows="3" placeholder="Ex.: quero manter o volume em cima, tenho alergia a algum produto..."></textarea>
+                  </label>
+                  <label class="check">
+                    <input type="checkbox" id="fLembrete" checked>
+                    <span>Quero receber lembrete 1 hora antes</span>
+                  </label>
+                  <p class="form__error" id="formError"></p>
+                </form>
+              </div>
+
+              <div class="step-panel step-panel--done" data-step="5">
+                <div class="done__icon">
+                  <svg viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+                </div>
+                <h3 class="step-panel__title">Horário reservado!</h3>
+                <p id="doneText">Seu horário foi reservado. Abrimos o WhatsApp para você confirmar com a barbearia.</p>
+                <div class="done__actions">
+                  <a href="#" class="btn btn--gold" id="doneWhats" target="_blank" rel="noopener">Abrir WhatsApp novamente</a>
+                  <button type="button" class="btn btn--ghost" id="newBooking">Fazer outro agendamento</button>
+                </div>
+              </div>
+
+              <div class="booking__nav" id="bookingNav">
+                <button type="button" class="btn btn--ghost" id="btnPrev">Voltar</button>
+                <button type="button" class="btn btn--gold" id="btnNext">Continuar</button>
+              </div>
+            </div>
+
+            <aside class="summary" id="summary">
+              <h4>Resumo</h4>
+              <ul class="summary__items" id="sumItems"><li class="empty">Nenhum serviço selecionado</li></ul>
+              <dl class="summary__info">
+                <div><dt>Profissional</dt><dd id="sumBarber">-</dd></div>
+                <div><dt>Data</dt><dd id="sumDate">-</dd></div>
+                <div><dt>Horário</dt><dd id="sumTime">-</dd></div>
+                <div><dt>Duração</dt><dd id="sumDur">-</dd></div>
+              </dl>
+              <div class="summary__total"><span>Total</span><strong id="sumTotal">R$ 0,00</strong></div>
+            </aside>
+          </div>
+        </div>
+
+        <div class="my-bookings" id="myBookings" hidden>
+          <h3>Seus próximos horários</h3>
+          <ul id="myBookingsList"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gallery" id="galeria">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Galeria</p>
+          <h2 class="section__title reveal">Nosso trabalho fala por nós</h2>
+        </div>
+        <div class="gallery__filters reveal" id="galleryFilters">
+          <button class="is-active" data-filter="todos">Todos</button>
+          <button data-filter="cortes">Cortes</button>
+          <button data-filter="barba">Barba</button>
+          <button data-filter="ambiente">Ambiente</button>
+        </div>
+        <div class="gallery__grid" id="galleryGrid">
+          <figure class="g-item g-item--tall" data-cat="cortes" style="--img:url('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=900&q=80')"><figcaption>Degradê navalhado</figcaption></figure>
+          <figure class="g-item" data-cat="ambiente" style="--img:url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=900&q=80')"><figcaption>Nosso salão</figcaption></figure>
+          <figure class="g-item" data-cat="barba" style="--img:url('https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=900&q=80')"><figcaption>Barba com toalha quente</figcaption></figure>
+          <figure class="g-item g-item--wide" data-cat="ambiente" style="--img:url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&q=80')"><figcaption>Cadeiras clássicas</figcaption></figure>
+          <figure class="g-item" data-cat="cortes" style="--img:url('https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=900&q=80')"><figcaption>Corte social</figcaption></figure>
+          <figure class="g-item g-item--tall" data-cat="barba" style="--img:url('https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=900&q=80')"><figcaption>Desenho de barba</figcaption></figure>
+          <figure class="g-item" data-cat="cortes" style="--img:url('https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=900&q=80')"><figcaption>Acabamento na navalha</figcaption></figure>
+          <figure class="g-item" data-cat="ambiente" style="--img:url('https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=900&q=80')"><figcaption>Ferramentas profissionais</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section testimonials">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Depoimentos</p>
+          <h2 class="section__title reveal">Quem senta na cadeira, volta</h2>
+          <p class="rating reveal"><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> 4,9 de 5 com mais de 1.200 avaliações no Google</p>
+        </div>
+        <div class="slider reveal" id="slider">
+          <div class="slider__track" id="sliderTrack"></div>
+          <div class="slider__dots" id="sliderDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section products" id="produtos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal">Loja Imperium</p>
+          <h2 class="section__title reveal">Leve o cuidado para casa</h2>
+          <p class="section__lead reveal">Os mesmos produtos que usamos na cadeira, à venda na recepção. Reserve pelo WhatsApp e retire no seu próximo horário.</p>
+        </div>
+        <div class="products__grid" id="productsGrid"></div>
+      </div>
+    </section>
+
+    <section class="section faq">
+      <div class="container faq__grid">
+        <div>
+          <p class="eyebrow reveal">Dúvidas frequentes</p>
+          <h2 class="section__title reveal">Perguntas e respostas</h2>
+          <p class="reveal">Não encontrou o que procurava? Fale com a gente pelo WhatsApp e respondemos em poucos minutos.</p>
+          <a href="#" class="btn btn--gold reveal" data-whats="Olá! Tenho uma dúvida sobre a barbearia.">Falar no WhatsApp</a>
+        </div>
+        <div class="accordion" id="faqList"></div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <p class="eyebrow reveal">Contato</p>
+          <h2 class="section__title reveal">Venha nos visitar</h2>
+
+          <ul class="contact__list reveal">
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 018 8c0 5.5-8 12-8 12S4 15.5 4 10a8 8 0 018-8z"/><circle cx="12" cy="10" r="2.6"/></svg>
+              <div><strong>Endereço</strong><span>Av. Principal, 1000 - Centro<br>Em frente à praça central</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><path d="M5 3h3l2 5-2.5 1.5a11 11 0 006 6L15 13l5 2v3a2 2 0 01-2 2A16 16 0 013 5a2 2 0 012-2z"/></svg>
+              <div><strong>Telefone e WhatsApp</strong><span id="phoneText">(84) 99142-1656</span></div>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+              <div><strong>Instagram</strong><span>@imperiumbarberclub</span></div>
+            </li>
+          </ul>
+
+          <div class="hours reveal">
+            <h4>Horário de funcionamento</h4>
+            <ul id="hoursList"></ul>
+          </div>
+        </div>
+
+        <div class="contact__side">
+          <form class="form contact__form reveal" id="contactForm" novalidate>
+            <h4>Envie uma mensagem</h4>
+            <label>Nome<input type="text" id="cNome" placeholder="Seu nome" required></label>
+            <label>Assunto
+              <select id="cAssunto">
+                <option>Dúvida sobre serviços</option>
+                <option>Planos de assinatura</option>
+                <option>Dia do noivo / eventos</option>
+                <option>Produtos</option>
+                <option>Trabalhe conosco</option>
+                <option>Outro</option>
+              </select>
+            </label>
+            <label>Mensagem<textarea id="cMsg" rows="4" placeholder="Escreva aqui..." required></textarea></label>
+            <p class="form__error" id="contactError"></p>
+            <button type="submit" class="btn btn--gold btn--block">Enviar pelo WhatsApp</button>
+          </form>
+          <div class="map reveal">
+            <iframe title="Mapa da barbearia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Natal%2C%20RN&output=embed"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="container cta__inner">
+        <h2>Seu próximo corte começa com um clique.</h2>
+        <a href="#agendar" class="btn btn--dark btn--lg">Agendar meu horário</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div>
+        <a href="#inicio" class="logo">
+          <svg class="logo__mark" viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M8 34 L14 14 L24 26 L34 14 L40 34 Z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>
+            <circle cx="14" cy="12" r="2.2" fill="currentColor"/><circle cx="24" cy="24" r="2.2" fill="currentColor"/><circle cx="34" cy="12" r="2.2" fill="currentColor"/>
+            <path d="M8 38 H40" stroke="currentColor" stroke-width="2.2"/>
+          </svg>
+          <span class="logo__text">Imperium<small>Barber Club</small></span>
+        </a>
+        <p class="footer__about">Barbearia premium dedicada ao cuidado masculino com técnica, conforto e atendimento de primeira.</p>
+      </div>
+      <div>
+        <h5>Navegação</h5>
+        <ul>
+          <li><a href="#servicos">Serviços e preços</a></li>
+          <li><a href="#planos">Planos</a></li>
+          <li><a href="#equipe">Equipe</a></li>
+          <li><a href="#agendar">Agendamento</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>Atendimento</h5>
+        <ul>
+          <li>Seg a Sex: 9h às 20h</li>
+          <li>Sábado: 8h às 18h</li>
+          <li>Domingo: fechado</li>
+        </ul>
+      </div>
+      <div>
+        <h5>Pagamento</h5>
+        <ul class="pay">
+          <li>Pix</li><li>Crédito</li><li>Débito</li><li>Dinheiro</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>&copy; <span id="year"></span> Imperium Barber Club. Site de demonstração.</span>
+      <span>Desenvolvido por Luis Bezerra</span>
+    </div>
+  </footer>
+
+  <a href="#" class="whats-float" data-whats="Olá! Vim pelo site e gostaria de mais informações." aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 32 32"><path fill="currentColor" d="M16 3a13 13 0 00-11.2 19.6L3 29l6.6-1.7A13 13 0 1016 3zm0 23.7a10.7 10.7 0 01-5.5-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.7 10.7 0 1116 26.7zm5.9-8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.8 8.8 0 01-4.4-3.8c-.3-.6.3-.5 1-1.8.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 00-.9.4 3.7 3.7 0 00-1.1 2.7 6.5 6.5 0 001.3 3.4 14.8 14.8 0 005.7 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 002.2-1.6 2.8 2.8 0 00.2-1.6c-.1-.2-.3-.3-.6-.4z"/></svg>
+  </a>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
